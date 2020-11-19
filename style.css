@@ -1,0 +1,102 @@
+
+/* 
+Name: Heather Gibson 
+Date Created: 10/26/2020
+Most Recent Revison: 11/18/2020
+*/
+
+body {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    border:none;
+    box-sizing: border-box;
+}
+
+
+/* header */
+
+h1{
+    font-size: 4em;
+    font-weight:bold;
+    text-align: center;
+    margin:20px;
+    
+}
+
+.jumbotron{
+    background:url(./images/waves-2226882_1280.jpg);
+   }
+
+/* nav */
+
+nav{
+    margin-bottom: 20px;
+}
+
+.nav-item {
+    padding:5px 20px;
+}
+
+.nav-link.active {
+    background-color:#a9a9a9 !important;
+    color: #ffffff;
+
+    
+}
+nav a:visited{
+    color: #000000;
+
+}
+nav a:hover{
+    background-color: #a9a9a9;
+    color:#ffffff;
+} 
+
+
+
+/* Menu */
+
+#menu{
+    background-color: #bad6d6;
+    padding:40px;
+    margin:0 auto;
+   
+}
+
+table{
+   margin: 20px 0px;
+}
+
+
+/* contact us */
+
+label, legend {
+   text-align: right;
+   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .col-sm-3.col-form-label, .form-group.row, input, select {
+            text-align: center;
+            margin:0 auto;
+    }}
+
+@media (max-width: 800px) {
+    select { text-indent: 40%; } 
+}
+
+fieldset{
+
+    width: 75%;
+    margin:0 auto;
+}
+
+form{
+    background: #ededed;
+    padding:40px;
+   
+}
+
+/* footer */
+
