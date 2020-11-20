@@ -1,5 +1,5 @@
 # restaurant
-Ocean Lake Pub restaurant site
+Ocean Lake Pub 
 
-Portfolio Site
+Sotware Guild restaurant site
 
