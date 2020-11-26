@@ -5,98 +5,94 @@ Date Created: 10/26/2020
 Most Recent Revison: 11/18/2020
 */
 
-body {
+/* COLORS
 
-    max-width: 1200px;
-    margin: 0 auto;
-    border:none;
-    box-sizing: border-box;
-}
+teal:#307c91
+light-teal: #b6dce9
+grey: #8b929a 
+sand: #e5e3e4
+*/
 
 
-/* header */
 
-h1{
-    font-size: 4em;
-    font-weight:bold;
-    text-align: center;
-    margin:20px;
-    
-}
+/* JUMBOTRON */
 
 .jumbotron{
-    background:url(./images/waves-2226882_1280.jpg);
-   }
-
-/* nav */
-
-nav{
-    margin-bottom: 20px;
+    background: url(./images/waves.jpg);
 }
 
-.nav-item {
-    padding:5px 20px;
-}
+/* NAVIGATION*/
 
-.nav-link.active {
-    background-color:#a9a9a9 !important;
-    color: #ffffff;
 
-    
-}
-nav a:visited{
+/* unvisited link */
+.nav-pills>li>a {
+    border:1px solid #307c91;
     color: #000000;
+  }
 
-}
-nav a:hover{
-    background-color: #bad6d6;
-    color:#ffffff;
-} 
+  /* visited link */
+  .nav-pills>li>a:visited {
+    color:#8b929a;
+  }
+  
+  /* mouse over link */
+  .nav-pills>li>a:hover {
+    color: #ffff;
+    background: #307c91;
+  }
+  
+  /* selected link */
+  .nav-pills .nav-link.active {
+    background: #000000;;
+    color:#ffff ;
+  }
+
+  /* ABOUT SECTION*/
+
+  #about{
+      background:#e5e3e4;
+  }
+
+  /* MENU */
+
+  #menu {
+      background: #b6dce9;
+  }
+  
+
+  /* CONTACT */
+
+   .card-body {
+      background: #b6dce9;
+  }
+  
+
+  
+  /* label {
+      text-align: right;
+  } */
+
+ 
 
 
+  @media (max-width: 575.98px) { 
 
-/* Menu */
+    label, input {
+        text-align: center;
+        
+    }
 
-#menu{
-    background-color: #bad6d6;
-    padding:40px;
-    margin:0 auto;
-   
-}
+    .no-display {
+        display: none;
+        }
 
-table{
-   margin: 20px 0px;
-}
+    }
+    @media (min-width: 576px) {
+        label {
+            text-align: right;
+        } 
 
-
-/* contact us */
-
-label, legend {
-   text-align: right;
-   font-weight: bold;
-}
-
-@media (max-width: 800px) {
-    .col-sm-3.col-form-label, .form-group.row, input, select {
-            text-align: center;
-            margin:0 auto;
-    }}
-
-@media (max-width: 800px) {
-    select { text-indent: 40%; } 
-}
-
-fieldset{
-
-    width: 75%;
-    margin:0 auto;
-}
-
-form{
-    background: #ededed;
-    padding:40px;
-   
-}
-
-/* footer */
-
+       #text-left{
+        text-align: left;
+       }
+    }
