@@ -18,7 +18,7 @@ sand: #e5e3e4
 /* JUMBOTRON */
 
 .jumbotron{
-    background: url(./images/waves.jpg);
+    background: url(./images/waves1.jpg);
 }
 
 /* NAVIGATION*/
@@ -26,24 +26,24 @@ sand: #e5e3e4
 
 /* unvisited link */
 .nav-pills>li>a {
-    border:1px solid #307c91;
+    border:1px solid #8b929a ;
     color: #000000;
   }
 
   /* visited link */
   .nav-pills>li>a:visited {
-    color:#8b929a;
+    color:#0000;
   }
   
   /* mouse over link */
   .nav-pills>li>a:hover {
-    color: #ffff;
-    background: #307c91;
+    color: #000000;
+    background: #e5e3e4;
   }
   
   /* selected link */
   .nav-pills .nav-link.active {
-    background: #000000;;
+    background: #8b929a;;
     color:#ffff ;
   }
 
@@ -66,13 +66,6 @@ sand: #e5e3e4
       background: #b6dce9;
   }
   
-
-  
-  /* label {
-      text-align: right;
-  } */
-
- 
 
 
   @media (max-width: 575.98px) { 

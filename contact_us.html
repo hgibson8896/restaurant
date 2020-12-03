@@ -82,8 +82,8 @@
            <h4> Contact Form</h4>
             </div>
              <div class="card-body">
-
-            <form  action="fakePage.html" method="POST" class="needs-validation text-center" novalidate>
+              
+            <form  id="signupform" onsubmit="return validateItems()"  method="POST" action="fakePage.html" class="needs-validation text-center"  novalidate>
     
             <div class="form-group row">
             <label for="firstLastName" class="col-sm-3 col-form-label no-display"> Name</label>
@@ -175,9 +175,10 @@
 
 
 <div class="form-group text-center">
-<button type="submit"  class="btn btn-secondary btn-block display-block">SEND REQUEST</button>
-</div></div>
-</div></form>
+<button type="submit" class="btn btn-secondary btn-block display-block">SEND REQUEST</button>
+</div>
+</div>
+</form>
 
 </div>
 </div>
@@ -204,7 +205,9 @@
 <script src="script.js" type="script"></script>
 
 <script>
-  (function() {
+
+  
+(function validateItems() {
     'use strict';
     window.addEventListener('load', function() {
       // Fetch all the forms we want to apply custom Bootstrap validation styles to
@@ -221,7 +224,6 @@
       });
     }, false);
   })();
-
 
 </script>
 
